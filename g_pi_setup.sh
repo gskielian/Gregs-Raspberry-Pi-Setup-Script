@@ -25,7 +25,8 @@ sudo apt-get install -y arduino
 sudo usermod -a -G tty pi
 sudo usermod -a -G dialout pi
 
-
+#allowing command line arduino programming
+git clone https://github.com/amperka/ino.git
 
 #and some fun stuff
 sudo apt-get install -y espeak
