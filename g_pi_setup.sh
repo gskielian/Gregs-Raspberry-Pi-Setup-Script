@@ -28,6 +28,12 @@ sudo usermod -a -G dialout pi
 #allowing command line arduino programming
 sudo pip install ino
 
+
+#Because why raspicam without opencv
+sudo apt-get install libopencv-dev python-opencv
+
+
+
 #and some fun stuff
 sudo apt-get install -y espeak
 sudo apt-get install -y figlet
