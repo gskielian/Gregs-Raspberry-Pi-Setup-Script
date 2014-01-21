@@ -26,7 +26,7 @@ sudo usermod -a -G tty pi
 sudo usermod -a -G dialout pi
 
 #allowing command line arduino programming
-pip install ino
+sudo pip install ino
 
 #and some fun stuff
 sudo apt-get install -y espeak
